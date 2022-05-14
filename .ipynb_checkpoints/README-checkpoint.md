@@ -30,13 +30,24 @@ Note that, analysis process might involve several tables together using "join". 
 1. staging tables
 We basically follow all the attributes in JSON file to build our staging tables. It's straightforward so I'll skip this part.
 
-
 2. final analytics tables
 We use star-schema for this work. The fact table is used to record bussiness event. In our case, the event is being recorded whenever a user plays a song.
 -- Fact Table (songplays)
 -- Dimension Table (users, songs, times, artists)
 
-![alt text](https://drive.google.com/file/d/1F381Z5BqQN5lyKcVUlN7v59SutEaO0hY/view?usp=sharing)
+[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/star-scheme.png)
+
+Here, we attach some scheme format, and part of its query result for reference.
+-- songplays
+[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/songplays-schema.png)
+[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/songplays-query-result.png)
+-- users
+[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/users-schema.png)
+[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/users-query-result.png)
+-- times
+[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/times-schema.png)
+[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/times-query-result.png)
+
 
 ## File Descriptions
 
