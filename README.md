@@ -35,19 +35,20 @@ We use star-schema for this work. The fact table is used to record bussiness eve
 -- Fact Table (songplays)
 -- Dimension Table (users, songs, times, artists)
 
-[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/star-scheme.png)
-
+![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/star-scheme.png)
 Here, we attach some scheme format, and part of its query result for reference.
--- songplays
-[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/songplays-schema.png)
-[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/songplays-query-result.png)
--- users
-[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/users-schema.png)
-[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/users-query-result.png)
--- times
-[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/times-schema.png)
-[My image](JiaHuaCheng.github.com/dataEngineering-ETL_by_aws/img/times-query-result.png)
 
+-- songplays
+![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/songplays-schema.png)
+![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/songplays-query-result.png)
+
+-- users
+![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/users-schema.png)
+![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/users-query-result.png)
+
+-- times
+![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/times-schema.png)
+![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/times-query-result.png)
 
 ## File Descriptions
 
