@@ -36,17 +36,18 @@ We use star-schema for this work. The fact table is used to record bussiness eve
 -- Dimension Table (users, songs, times, artists)
 
 ![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/star-scheme.png)
+
 Here, we attach some scheme format, and part of its query result for reference.
 
--- songplays
+Fact table - songplays
 ![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/songplays-schema.png)
 ![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/songplays-query-result.png)
 
--- users
+Dimension table - users
 ![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/users-schema.png)
 ![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/users-query-result.png)
 
--- times
+Dimension table - times
 ![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/times-schema.png)
 ![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/times-query-result.png)
 
