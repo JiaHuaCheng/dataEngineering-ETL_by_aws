@@ -162,7 +162,7 @@ songplay_table_insert = ("""
 user_table_insert = ("""
 
     INSERT INTO users (user_id, first_name, last_name, gender, level)
-    SELECT DISTINCT(userId)
+    SELECT DISTINCT(userId),
            firstName,
            lastName,
            gender,

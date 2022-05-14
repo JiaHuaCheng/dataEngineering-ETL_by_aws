@@ -36,6 +36,8 @@ We use star-schema for this work. The fact table is used to record bussiness eve
 -- Fact Table (songplays)
 -- Dimension Table (users, songs, times, artists)
 
+![alt text](https://drive.google.com/file/d/1F381Z5BqQN5lyKcVUlN7v59SutEaO0hY/view?usp=sharing)
+
 ## File Descriptions
 
 1. create_tables.py - A python script for creating Postgres tables (Follow star-schema to create tables).
