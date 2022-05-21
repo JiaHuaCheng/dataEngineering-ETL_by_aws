@@ -39,7 +39,7 @@ We use star-schema for this work. The fact table is used to record bussiness eve
 
 Here, we attach some scheme format, and part of its query result for reference.  
 
-Fact table - songplays
+Fact table - songplays  
 ![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/songplays-schema.png)  
 ![alt text](https://github.com/JiaHuaCheng/dataEngineering-ETL_by_aws/blob/main/img/songplays-query-result.png)  
 
